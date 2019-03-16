@@ -39,7 +39,7 @@
   }
 
   h1, h2, h3 {
-    font-family: Righteous,sans-serif;
+    font-family: "Righteous",sans-serif;
   }
 
 /* Icon */
@@ -93,14 +93,20 @@
   }
 
 /* Tags */
-  .tags {
+  #tags {
     margin: 4em auto ;
   }
-  .tags a {
+  #tags a {
     color: rgba(255, 255, 255, 0.75);
     margin: auto 3em auto 3em;
     background-color: rgba(255, 255, 255, 0.25);
-    font-family: Righteous,sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+  }
+
+  @media screen and (max-width: 736px) {
+    #tags {
+      margin: auto 1em auto 1em;
+    }
   }
 
 /* List */
@@ -175,7 +181,7 @@
 
   #header p {
     color: rgba(255, 255, 255, 0.75);
-    margin: auto 0 2em 0;
+    margin: 2em 0 3em 0;
   }
 
   #header .selfphoto {
